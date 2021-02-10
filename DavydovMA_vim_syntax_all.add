@@ -1,0 +1,33 @@
+
+" ------------- ---- ------
+" DavydovMA 2013-04-06-00 {
+"
+syn match	DMA_fixme	"FIXME"
+syn match	DMA_sizeline72	'\%73v.'
+syn match	DMA_sizeline80	'\%81v.'
+syn match	DMA_sizeline120	'\%120v.'
+syn match	DMA_lostspace	"[ \t]\+$"
+"
+hi def link	DMA_fixme	Todo
+hi def link	DMA_sizeline72	Todo
+hi def link	DMA_sizeline80	Todo
+hi def link	DMA_sizeline120	Todo
+hi def link	DMA_lostspace	Error
+"
+" Copyright (C) 1990-2021 Free Software DavydovMA
+"
+" This program is free software: you can redistribute it and/or modify
+" it under the terms of the GNU General Public License as published by
+" the Free Software Foundation, either version 3 of the License, or
+" (at your option) any later version.
+"
+" This program is distributed in the hope that it will be useful,
+" but WITHOUT ANY WARRANTY; without even the implied warranty of
+" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+" GNU General Public License for more details.
+"
+" You should have received a copy of the GNU General Public License
+" along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"
+" } DavydovMA 2021-02-10-00
+" ------------- ---- ------
