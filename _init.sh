@@ -13,6 +13,11 @@ cp -v -f /etc/vim/vimrc /etc/vim/vimrc.orig
 echo ""                             >> /etc/vim/vimrc
 echo "runtime colors/DavydovMA.vim" >> /etc/vim/vimrc
 
+# /etc/vim/gvimrc
+cp -v -f /etc/vim/gvimrc /etc/vim/gvimrc.orig
+echo ""                                   >> /etc/vim/gvimrc
+echo "set guifont=DejaVu\ Sans\ Mono\ 12" >> /etc/vim/gvimrc
+
 # vim81/colors/DavydovMA.vim
 cp -v -f ${DIR_PWD}/DavydovMA.vim ${vim_share}/colors/DavydovMA.vim
 
